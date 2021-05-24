@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_museums">
+
+    <fragment
+        android:id="@+id/nav_museums"
+        android:name="com.example.build_courses.ui.fragments.MuseumsFragment"
+        android:label="@string/menu_musems"
+        tools:layout="@layout/fragment_museums" />
+
+    <fragment
+        android:id="@+id/nav_places"
+        android:name="com.example.build_courses.ui.fragments.PlacesFragment"
+        android:label="@string/menu_places"
+        tools:layout="@layout/fragment_places" />
+
+    <fragment
+        android:id="@+id/nav_news"
+        android:name="com.example.build_courses.ui.fragments.NewsFragment"
+        android:label="@string/menu_news"
+        tools:layout="@layout/fragment_news" />
+
+    <fragment
+        android:id="@+id/nav_kvest"
+        android:name="com.example.build_courses.ui.fragments.KvestsFragment"
+        android:label="@string/menu_tests"
+        tools:layout="@layout/fragment_kvests" />
+
+    <fragment
+        android:id="@+id/nav_qr"
+        android:name="com.example.build_courses.ui.fragments.QrFragment"
+        android:label="@string/menu_qr"
+        tools:layout="@layout/fragment_qr" />
+
+    <fragment
+        android:id="@+id/nav_createData"
+        android:name="com.example.build_courses.ui.fragments.CreateDataFragment"
+        android:label="@string/createdata"
+        tools:layout="@layout/fragment_create_data" />
+
+
+</navigation>

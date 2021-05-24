@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="16dp"
+    android:layout_margin="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/places_img"
+            android:layout_width="171dp"
+            android:layout_height="138dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_img_arzamas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/excursion_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="171dp"
+            android:background="#81D4FA"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="Название экскурсии"
+            android:textColor="#182545"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/places_img"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/excursion_them"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="13dp"
+            android:paddingEnd="10dp"
+            android:text="Тематика"
+            app:layout_constraintStart_toEndOf="@+id/places_img"
+            app:layout_constraintTop_toBottomOf="@+id/excursion_name" />
+
+        <TextView
+            android:id="@+id/excursion_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Длительность"
+            app:layout_constraintStart_toStartOf="@+id/excursion_them"
+            app:layout_constraintTop_toBottomOf="@+id/excursion_them" />
+
+        <TextView
+            android:id="@+id/excursion_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Подробнее..."
+            app:layout_constraintStart_toStartOf="@+id/excursion_time"
+            app:layout_constraintTop_toBottomOf="@+id/excursion_time" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

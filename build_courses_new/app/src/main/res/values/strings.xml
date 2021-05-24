@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">build_courses</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!--Navbar-->
+    <string name="menu_musems">Музеи</string>
+    <string name="menu_places">Достопримечательности</string>
+    <string name="menu_news">Лента новостей</string>
+    <string name="menu_tests">Квесты</string>
+    <string name="menu_qr">QR-коды</string>
+
+
+    <!--LoginActivity-->
+    <string name="login_activity_tv_authorization">Авторизация</string>
+    <string name="login_activity_hint_email">Email</string>
+    <string name="login_activity_hint_password">Пароль</string>
+    <string name="login_activity_tv_notAccount">Ещё не зарегестрированы?</string>
+    <string name="login_activity_btn_Auntification">Войти</string>
+
+
+    <!--RegistrationActivity-->
+    <string name="registration_activity_tv_registration">Регистрация</string>
+    <string name="createdata">CreateData</string>
+    <string name="image_load_error">Ошибка</string>
+
+    <string name="name_MuseumInfoActivity">Музей</string>
+
+</resources>

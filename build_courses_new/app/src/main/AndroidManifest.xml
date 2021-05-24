@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.build_courses">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Build_courses">
+        <activity android:name=".Activity.NewsInfoActivity" />
+        <activity
+            android:name=".Activity.ExcursionInfoActivity"
+            android:label="@string/name_MuseumInfoActivity" />
+        <activity android:name=".Activity.TestActivity" />
+        <activity android:name=".Activity.PlacesInfoActivity" />
+        <activity android:name=".Activity.MuseumInfoActivity" />
+        <activity android:name=".Activity.AddressActivity" />
+        <activity android:name=".Activity.ContactsActivity" />
+        <activity android:name=".Activity.ImageViewerActivity" />
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:clearTaskOnLaunch="true"
+            android:stateNotNeeded="true">
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SCAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:noHistory="true"
+            android:theme="@style/Theme.Build_courses.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

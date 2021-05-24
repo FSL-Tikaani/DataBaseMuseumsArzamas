@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "172146494552",
+    "firebase_url": "https://databasemuseums-default-rtdb.firebaseio.com",
+    "project_id": "databasemuseums",
+    "storage_bucket": "databasemuseums.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172146494552:android:26dd37e9a79491ac8b0e2d",
+        "android_client_info": {
+          "package_name": "com.example.build_courses"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172146494552-quqojcb1fjofed3qaprivn71dpi1o9ca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc7RF4yfzDNbi_uw7mD0lZwv8r5KKTAxY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172146494552-quqojcb1fjofed3qaprivn71dpi1o9ca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
